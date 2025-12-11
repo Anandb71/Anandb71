@@ -44,3 +44,9 @@ I'm a Computer Science student with a strong interest in building software that 
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
 </div>
+
+<br />
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</div>
