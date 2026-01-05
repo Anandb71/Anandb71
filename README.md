@@ -20,8 +20,6 @@
 
 ---
 
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=Anandb71&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=c9d1d9&count_private=true" width="420"/>
-
 ### `> whoami`
 
 ```rust
@@ -37,8 +35,6 @@ I build developer tools that make AI systems **observable** and **debuggable**. 
 - 🌳 **Graph-Native Intelligence** — Code as knowledge graphs
 - 🤖 **Agentic Systems** — Autonomous AI that you can actually understand
 - 🔍 **Developer Experience** — Making the invisible visible
-
-<br clear="right"/>
 
 ---
 
