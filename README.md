@@ -149,8 +149,26 @@ I build developer tools that make AI systems **observable** and **debuggable**. 
 
 ---
 
-## 📊 Activity
+## 📊 Activity Overview
 
+<div align="center">
+
+<!-- GitHub Stats -->
+<img src="https://github-readme-stats.vercel.app/api?username=Anandb71&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=c9d1d9&count_private=true&include_all_commits=true" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anandb71&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="41%"/>
+
+</div>
+
+<br/>
+
+<!-- Contribution Graph -->
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anandb71&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=238636&point=ffffff&area=true&area_color=238636" width="95%"/>
+</div>
+
+<br/>
+
+<!-- Snake Animation -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/github-contribution-grid-snake-dark.svg" />
