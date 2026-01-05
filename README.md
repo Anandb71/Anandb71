@@ -28,7 +28,6 @@
 struct SystemArchitect {
     name: "Anand B",
     focus: ["Autonomous Agents", "Local-First Apps", "Graph Intelligence"],
-    philosophy: "Make AI transparent and inspectable",
     currently_building: "Arbor 🌳",
 }
 ```
@@ -136,36 +135,21 @@ I build developer tools that make AI systems **observable** and **debuggable**. 
 
 <div align="center">
 
-**Languages**
+<img src="https://skillicons.dev/icons?i=c,cpp,java,python,rust,html,css,js,react,ts,nextjs,flutter,dart,cs,git&theme=dark" />
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
+<br/><br/>
 
-**Frameworks & Tools**
+**AI & Frameworks**
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![LangChain](https://img.shields.io/badge/🦜_LangChain-1C3C3C?style=for-the-badge)
 ![CrewAI](https://img.shields.io/badge/🚢_CrewAI-FF6B6B?style=for-the-badge)
+![MCP](https://img.shields.io/badge/MCP-Protocol-238636?style=for-the-badge)
 
 </div>
 
 ---
 
 ## 📊 Activity
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Anandb71&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=58A6FF&ring=238636&fire=FF6B6B&currStreakLabel=58A6FF" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anandb71&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" width="41%"/>
-
-</div>
-
-<br/>
 
 <div align="center">
   <picture>
@@ -178,16 +162,6 @@ I build developer tools that make AI systems **observable** and **debuggable**. 
 ---
 
 <div align="center">
-
-### 💭 Philosophy
-
-*"The best AI tools are the ones you can see through."*
-
-<br/>
-
-**Building systems that are powerful AND understandable.**
-
-<br/>
 
 <a href="https://github.com/Anandb71?tab=repositories">
   <img src="https://img.shields.io/badge/Explore%20All%20Repos-238636?style=for-the-badge&logo=github&logoColor=white"/>
