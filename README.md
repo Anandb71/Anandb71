@@ -153,17 +153,25 @@ I build developer tools that make AI systems **observable** and **debuggable**. 
 
 <div align="center">
 
-<!-- GitHub Stats -->
-<img src="https://github-readme-stats.vercel.app/api?username=Anandb71&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=c9d1d9&count_private=true&include_all_commits=true" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anandb71&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="41%"/>
+<!-- Profile Details Card -->
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anandb71&theme=github_dark)
 
 </div>
 
-<br/>
-
-<!-- Contribution Graph -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anandb71&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=238636&point=ffffff&area=true&area_color=238636" width="95%"/>
+
+<!-- Stats Cards Row -->
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Anandb71&theme=github_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Anandb71&theme=github_dark)
+
+</div>
+
+<div align="center">
+
+<!-- Activity Cards Row -->
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Anandb71&theme=github_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Anandb71&theme=github_dark&utcOffset=5.5)
+
 </div>
 
 <br/>
