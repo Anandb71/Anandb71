@@ -1,226 +1,50 @@
 <div align="center">
 
-# ANAND B
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0b0f14,50:111827,100:1f6feb&text=Anand%20B&fontColor=ffffff&fontSize=56&fontAlignY=40&desc=System%20Architect%20%20%E2%80%A2%20%20Graph-Native%20Intelligence%20%20%E2%80%A2%20%20Observable%20AI&descAlignY=60&animation=fadeIn" width="100%" alt="Header" />
 
-**Making AI Systems Observable & Debuggable**
-
-Building graph-native intelligence for autonomous agents
-
-[`@RXffofc`](https://twitter.com/RXffofc) • [`anandbiju71@gmail.com`](mailto:anandbiju71@gmail.com)
+[Portfolio](https://github.com/Anandb71?tab=repositories) · [Twitter](https://twitter.com/RXffofc) · [Email](mailto:anandbiju71@gmail.com)
 
 </div>
 
----
+## About
+
+I build developer tools for autonomous AI systems — especially systems that need to be observable, debuggable, and useful in real production workflows.
+
+My work is centered on graph-native intelligence, local-first software, and better interfaces for understanding how agents think and act.
+
+## Selected Work
+
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [**Arbor**](https://github.com/Anandb71/arbor) | A graph-native intelligence layer that turns codebases into queryable knowledge systems. | `Rust` `Graphs` `MCP` |
+| [**Hive-Mind**](https://github.com/Anandb71/Hive-Mind-v1-) | A collaborative IDE experience where multiple AI agents work together inside the editor. | `TypeScript` `VS Code` `Agents` |
+| [**Agent Lens 2.0**](https://github.com/Anandb71/Agent-lens-2.0) | A local-first visual debugger for inspecting LangChain and CrewAI workflows in real time. | `Python` `LangChain` `CrewAI` |
+| [**FinX v2**](https://github.com/Anandb71/finx_v2) | A trading simulator designed to make financial learning interactive and practical. | `Flutter` `Data` `Education` |
+
+## Focus
+
+- Graph-native systems
+- Autonomous agent tooling
+- Local-first product design
+- Developer experience for AI workflows
+
+## Stats
 
 <div align="center">
-
-## ⚡ LIVE CODING UNIVERSE
-
-```diff
-███████████████████████████████████████████████████████████████████
-█                                                                 █
-█   🌌  REPOSITORY CONSTELLATION - Your Code Galaxy Live         █
-█                                                                 █
-███████████████████████████████████████████████████████████████████
-
-        ⭐                    🌟                    ✨
-     Arbor                Hive-Mind           Agent-Lens
-   [Rust Core]          [TypeScript]          [Python]
-      ↓                      ↓                     ↓
-      
-█████▓▓▓▒▒▒░░░ GRAPH INTELLIGENCE LAYER ░░░▒▒▒▓▓▓█████
-
-         🛸 Currently Orbiting: Graph-Native AI
-         🎯 Mission: Autonomous Agent Observability
-         📊 Systems Online: 6 Active Repositories
-         
-███████████████████████████████████████████████████████████████████
-```
-
-</div>
-
----
-
-## 🎯 CORE SYSTEMS
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**🌳 [ARBOR](https://github.com/Anandb71/arbor)**
-
-The Graph-Native Intelligence Layer
-
-```rs
-fn transform_codebase() {
-    Code → Knowledge Graph
-         → Queryable
-         → MCP Compatible
-}
-```
-
-Transform entire codebases into intelligent, queryable knowledge graphs. Built for the next generation of AI development tools.
-
-**Tech:** `Rust` `Graph DB` `MCP`
-
-</td>
-<td width="50%" valign="top">
-
-**🧠 [HIVE-MIND](https://github.com/Anandb71/Hive-Mind-v1-)**
-
-Multi-Agent Collaborative IDE
-
-```ts
-interface AgentSwarm {
-  agents: AIAgent[];
-  collaborate: () => Solution;
-  observe: () => Insights;
-}
-```
-
-Multiple AI agents work together inside your editor. Watch them reason, collaborate, and solve complex problems in real-time.
-
-**Tech:** `TypeScript` `VS Code API` `Multi-Agent`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**🔍 [AGENT LENS 2.0](https://github.com/Anandb71/Agent-lens-2.0)**
-
-Visual Debugger for AI Agents
-
-```py
-with AgentLens() as lens:
-    lens.observe(workflow)
-    lens.visualize(decisions)
-    lens.debug(reasoning)
-```
-
-Local-first debugging for LangChain & CrewAI. See inside the black box - watch agent reasoning unfold step by step.
-
-**Tech:** `Python` `LangChain` `CrewAI`
-
-</td>
-<td width="50%" valign="top">
-
-**📈 [FINX V2](https://github.com/Anandb71/finx_v2)**
-
-Stock Trading Simulator
-
-```dart
-class Trading {
-  learn() => practice();
-  practice() => profit();
-  // No real money lost
-}
-```
-
-Master trading strategies with virtual money and real market data. Gamified financial education that actually teaches.
-
-**Tech:** `Flutter` `Real-time APIs` `ML`
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>📦 MORE SYSTEMS</b></summary>
-
-<br>
-
-| Repository | Purpose | Stack |
-|:-----------|:--------|:------|
-| **[AI2util Bot](https://github.com/Anandb71/AI2util-discord-bot)** | Autonomous Discord agent with full task execution capabilities | `Python` `Async` |
-| **[NutriOrb](https://github.com/Anandb71/Nutriorb)** | AI-powered nutrition tracking with fluid UI design | `Flutter` `ML` |
-| **[RunCat365](https://github.com/Anandb71/RunCat365)** | Windows taskbar cat with GPU heat mapping | `C#` `.NET` |
-| **[TraZero](https://github.com/Anandb71/TraZero)** | Real-time carbon footprint tracking | `Dart` |
-
-</details>
-
----
-
-## 🛠️ TECH STACK
-
-```yaml
-Languages:
-  Primary: [Rust, Python, TypeScript]
-  Secondary: [C++, Java, Dart, C#]
-
-Frameworks:
-  AI: [LangChain, CrewAI, MCP Protocol]
-  Frontend: [React, Next.js, Flutter]
-  Backend: [Node.js, FastAPI]
-
-Focus:
-  - Graph-Native Intelligence
-  - Autonomous Agent Systems
-  - Local-First Architecture
-  - Observable AI Workflows
-  - Developer Experience
-```
-
----
-
-## 📊 SYSTEM METRICS
-
-<div align="center">
-
-![](https://github-readme-streak-stats.herokuapp.com/?user=Anandb71&theme=dark&hide_border=true&background=0D1117&stroke=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF)
-
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Anandb71&show_icons=true&hide_border=true&bg_color=00000000&title_color=e6edf3&text_color=9fb3c8&icon_color=58a6ff&rank_icon=github" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Anandb71&hide_border=true&background=00000000&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=e6edf3&sideLabels=9fb3c8&dates=9fb3c8&sideNums=e6edf3&currStreakNum=e6edf3" alt="GitHub streak" />
 </div>
 
 <div align="center">
-
-```ascii
-CONTRIBUTION INTENSITY MAP
-─────────────────────────────────────────────────────────
-🟩 High Activity    🟦 Medium Activity    ⬜ Learning Phase
-─────────────────────────────────────────────────────────
-```
-
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anandb71&layout=compact&hide_border=true&bg_color=00000000&title_color=e6edf3&text_color=9fb3c8" alt="Top languages" />
 </div>
 
----
+## Current Direction
 
-## 🎯 CURRENT MISSION
+Right now, I’m focused on building tooling that helps teams understand complex code and agent behavior through structure, visibility, and better feedback loops.
 
-<div align="center">
+## Elsewhere
 
-```mermaid
-graph LR
-    A[Code] --> B[Knowledge Graph]
-    B --> C[AI Understanding]
-    C --> D[Autonomous Agents]
-    D --> E[Observable Systems]
-    E --> F[Better Dev Tools]
-    
-    style A fill:#238636
-    style B fill:#1f6feb
-    style C fill:#58a6ff
-    style D fill:#79c0ff
-    style E fill:#a5d6ff
-    style F fill:#238636
-```
-
-**Building the observability layer for the next generation of AI systems**
-
-</div>
-
----
-
-<div align="center">
-
-### 💭 Philosophy
-
-*"The best AI systems are the ones you can understand,*  
-*debug when they fail, and trust when they work."*
-
----
-
-**[View All Repositories →](https://github.com/Anandb71?tab=repositories)**
-
-⚡ Building in public • 🌱 Always learning • 🚀 Shipping fast
-
-</div>
+- [All repositories](https://github.com/Anandb71?tab=repositories)
+- [Contact](mailto:anandbiju71@gmail.com)
+- [Twitter / X](https://twitter.com/RXffofc)
