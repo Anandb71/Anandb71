@@ -8,6 +8,11 @@
 [![Twitter](https://img.shields.io/badge/Twitter-@RXffofc-111827?style=for-the-badge&logo=x)](https://twitter.com/RXffofc)
 [![Email](https://img.shields.io/badge/Email-anandbiju71@gmail.com-1f6feb?style=for-the-badge&logo=gmail)](mailto:anandbiju71@gmail.com)
 
+<p>
+  <img src="https://komarev.com/ghpvc/?username=Anandb71&label=Profile%20Views&color=1f6feb&style=flat-square" alt="Profile views" />
+  <img src="https://img.shields.io/badge/Baseline-Mar%202026%20~712-111827?style=flat-square" alt="Baseline around 712" />
+</p>
+
 </div>
 
 ## About
