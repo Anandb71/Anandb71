@@ -33,28 +33,19 @@ My current obsession: combining graph-native intelligence, local-first product d
 - Local-first architecture
 - Developer experience for AI workflows
 
-## 🕹️ Mini-Game: **Latency Ladder**
+## Daily Frame × Contribution Pulse
 
-Not snake. No nostalgia tax. Pure engineering choices.
+<div align="center">
+  <img src="https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=en-US" alt="Daily cinematic frame" width="100%" />
+</div>
 
-You get **3 turns**. Start at **0 points**. Try to reach **exactly 10**.
+<p align="center"><em>A new frame every day. Same mission: ship with intent.</em></p>
 
-Choose one action per turn:
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anandb71&bg_color=0d1117&color=9fb3c8&line=58a6ff&point=f2cc60&area=true&hide_border=true&custom_title=Daily%20Contribution%20Pulse" width="100%" alt="Contribution activity graph" />
+</div>
 
-- `Route → warm_hit` = +4
-- `@PResolve /fix` = +3
-- `Add benchmark row` = +2
-- `Ship without tests` = -3
-
-<details>
-<summary>Scoring tiers</summary>
-
-- **10 exactly** → 🏆 _Systems Wizard_
-- **8–9** → ⚙️ _Reliable Builder_
-- **5–7** → 🧰 _Patch Crafter_
-- **<5** → 🧯 _Rollback Sprinter_
-
-</details>
+<p align="center"><em>Photography mood + commit rhythm, auto-updated from live activity.</em></p>
 
 ## Stats
 
