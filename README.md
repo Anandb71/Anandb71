@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./assets/profile-header.svg" width="100%" alt="Anand B - Founder at www.getarbor.dev" />
+<img src="./assets/profile-header.svg" width="100%" alt="Anand B - Cofounder at www.getarbor.dev" />
 
-**Founder - [www.getarbor.dev](https://www.getarbor.dev/)**
+**Cofounder - [www.getarbor.dev](https://www.getarbor.dev/)**
 
 <br />
 
@@ -23,7 +23,7 @@ build deeply -> measure honestly -> ship relentlessly
 
 ## Builder Mode
 
-- Founder building [Arbor](https://www.getarbor.dev/) as the core bet.
+- Cofounder building [Arbor](https://www.getarbor.dev/) as the core bet.
 - Focused on code intelligence, agent observability, and local-first systems.
 - Preference: deterministic engines, fast feedback loops, interfaces that stay sharp.
 

@@ -1,6 +1,6 @@
 <svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Anand B</title>
-  <desc id="desc">Founder at www.getarbor.dev. Building graph-native AI tooling.</desc>
+  <desc id="desc">Cofounder at www.getarbor.dev. Building graph-native AI tooling.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
       <stop stop-color="#05070A"/>
@@ -22,7 +22,7 @@
 
   <rect x="78" y="50" width="292" height="34" rx="17" fill="#0D1117" stroke="#30363D"/>
   <circle cx="101" cy="67" r="5" fill="#238636"/>
-  <text x="119" y="73" fill="#E6EDF3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">Founder - www.getarbor.dev</text>
+  <text x="119" y="73" fill="#E6EDF3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">Cofounder - www.getarbor.dev</text>
 
   <text x="78" y="142" fill="url(#name)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="72" font-weight="850">Anand B</text>
   <text x="82" y="184" fill="#B8C7D9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="650">Build the machine. Make it explain itself.</text>
