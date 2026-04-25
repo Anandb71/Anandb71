@@ -2,7 +2,7 @@
 
 <img src="./assets/profile-header.svg" width="100%" alt="Anand B - Cofounder at www.getarbor.dev" />
 
-**Cofounder - [www.getarbor.dev](https://www.getarbor.dev/)**
+**Co-Founder @ [www.getarbor.dev](https://www.getarbor.dev/)**
 
 <br />
 
