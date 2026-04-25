@@ -11,24 +11,38 @@
 
 </div>
 
-## Arbor
+## Mission
 
-I build **Arbor**, graph-native code intelligence for AI agents and engineering teams. It maps real program structure so agents can reason with call paths, blast radius, Git diffs, and MCP tools instead of guessing.
+I build **Arbor**, graph-native code intelligence for AI agents and engineering teams.
+
+Most AI coding tools guess from text. Arbor maps the codebase as a real graph, then gives agents deterministic context: call paths, blast radius, Git diffs, and MCP tools.
 
 ```text
-code graphs -> impact analysis -> MCP context -> safer AI coding
+build deeply -> measure honestly -> ship relentlessly
 ```
 
-## Selected Builds
+## Builder Mode
 
-| Project | Focus |
+- Founder building [Arbor](https://www.getarbor.dev/) as the core bet.
+- Focused on code intelligence, agent observability, and local-first systems.
+- Preference: deterministic engines, fast feedback loops, interfaces that stay sharp.
+
+## Proof Of Work
+
+| Project | Signal |
 | --- | --- |
-| [Arbor](https://github.com/Anandb71/arbor) | Graph-native code intelligence. |
-| [LoRA-JIT](https://github.com/Anandb71/LoRA-jit) | Local adapter routing for code generation. |
-| [Agent Lens 2.0](https://github.com/Anandb71/Agent-lens-2.0) | Visual debugging for AI agents. |
-| [J.A.R.V.I.S.](https://github.com/Anandb71/J.A.R.V.I.S) | Desktop AI assistant. |
-| [FinShield](https://github.com/Anandb71/FinShield) | Financial document forensics. |
-| [witr](https://github.com/Anandb71/witr) | Process and service diagnostics. |
+| [Arbor](https://github.com/Anandb71/arbor) | Graph-native code intelligence for AI coding workflows. |
+| [LoRA-JIT](https://github.com/Anandb71/LoRA-jit) | Local adapter routing and paging telemetry for code generation. |
+| [Agent Lens 2.0](https://github.com/Anandb71/Agent-lens-2.0) | Visual debugging for AI agent workflows. |
+| [J.A.R.V.I.S.](https://github.com/Anandb71/J.A.R.V.I.S) | Windows-first desktop AI assistant. |
+| [FinShield](https://github.com/Anandb71/FinShield) | Financial document forensics and graph investigation. |
+| [witr](https://github.com/Anandb71/witr) | Process, port, and service causality diagnostics. |
+
+## Contribution Pulse
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anandb71&bg_color=0d1117&color=8b949e&line=58a6ff&point=f2cc60&area=true&hide_border=true&radius=8&custom_title=Cinematic%20Commit%20Pulse" width="100%" alt="Cinematic contribution pulse" />
+</div>
 
 ## Stats
 
@@ -44,4 +58,4 @@ code graphs -> impact analysis -> MCP context -> safer AI coding
 
 ## Links
 
-[All repositories](https://github.com/Anandb71?tab=repositories) / [Arbor](https://www.getarbor.dev/) / [Email](mailto:anandbiju71@gmail.com) / [X](https://twitter.com/RXffofc)
+[Arbor](https://www.getarbor.dev/) / [Repositories](https://github.com/Anandb71?tab=repositories) / [Email](mailto:anandbiju71@gmail.com) / [X](https://twitter.com/RXffofc)
