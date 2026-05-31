@@ -34,7 +34,6 @@ build deeply -> measure honestly -> ship relentlessly
 | [Arbor](https://github.com/Anandb71/arbor) | Graph-native code intelligence for AI coding workflows. |
 | [LoRA-JIT](https://github.com/Anandb71/LoRA-jit) | Local adapter routing and paging telemetry for code generation. |
 | [Agent Lens 2.0](https://github.com/Anandb71/Agent-lens-2.0) | Visual debugging for AI agent workflows. |
-| [J.A.R.V.I.S.](https://github.com/Anandb71/J.A.R.V.I.S) | Windows-first desktop AI assistant. |
 | [FinShield](https://github.com/Anandb71/FinShield) | Financial document forensics and graph investigation. |
 | [witr](https://github.com/Anandb71/witr) | Process, port, and service causality diagnostics. |
 
