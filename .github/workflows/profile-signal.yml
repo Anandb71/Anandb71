@@ -1,0 +1,80 @@
+name: Refresh profile signal and streak
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-signal.yml"
+      - "scripts/generate-profile-assets.py"
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-signal
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    if: github.repository == 'Anandb71/Anandb71'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Generate self-hosted signal and streak cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+        run: python3 scripts/generate-profile-assets.py --output dist
+
+      - name: Generate theme-aware contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=#18883d&color_dots=#eef5ec,#b9dfc1,#7acb8a,#35a853,#18883d
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#7cf58a&color_dots=#07130b,#12351c,#1d5b2c,#3d9c4e,#7cf58a
+
+      - name: Validate generated profile assets
+        run: |
+          python3 - <<'PY'
+          import json
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          output = Path("dist")
+          required = {
+              "github-contribution-grid-snake-dark.svg",
+              "github-contribution-grid-snake.svg",
+              "profile-data.json",
+              "profile-signal-dark.svg",
+              "profile-signal-light.svg",
+          }
+          present = {path.name for path in output.iterdir() if path.is_file()}
+          missing = required - present
+          if missing:
+              raise SystemExit(f"Missing generated assets: {sorted(missing)}")
+
+          for path in output.glob("*.svg"):
+              ET.parse(path)
+          json.loads((output / "profile-data.json").read_text(encoding="utf-8"))
+          print(f"Validated {len(present)} generated profile assets.")
+          PY
+
+      - name: Publish generated assets
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          force_orphan: true
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_message: "chore: refresh profile signal and streak"
