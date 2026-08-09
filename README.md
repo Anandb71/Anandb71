@@ -10,7 +10,7 @@
 
 <a href="https://www.getarbor.dev/"><img src="https://img.shields.io/badge/ARBOR-SEE_THE_REACH-18883D?style=for-the-badge" alt="Visit Arbor"></a>
 <a href="https://www.linkedin.com/in/anandb71/"><img src="https://img.shields.io/badge/LINKEDIN-ANAND_B-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
-<a href="https://x.com/RXffofc"><img src="https://img.shields.io/badge/X-@RXffofc-111111?style=for-the-badge&logo=x&logoColor=white" alt="Follow on X"></a>
+<a href="https://x.com/anandb711"><img src="https://img.shields.io/badge/X-@anandb711-111111?style=for-the-badge&logo=x&logoColor=white" alt="Follow on X"></a>
 <a href="mailto:anandbiju71@gmail.com"><img src="https://img.shields.io/badge/EMAIL-LET'S_BUILD-A33F24?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Anand"></a>
 
 </div>
