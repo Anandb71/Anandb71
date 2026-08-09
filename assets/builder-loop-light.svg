@@ -1,0 +1,73 @@
+<svg width="1200" height="270" viewBox="0 0 1200 270" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Anand's builder loop</title>
+  <desc id="desc">Map the system, trace the edge, ship the smallest true change, and measure reality.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FAF4"/>
+      <stop offset=".5" stop-color="#EEF5EC"/>
+      <stop offset="1" stop-color="#FBF7E8"/>
+    </linearGradient>
+    <linearGradient id="line" x1="92" y1="0" x2="1108" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18883D"/>
+      <stop offset=".68" stop-color="#18883D"/>
+      <stop offset="1" stop-color="#9A6710"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#18883D" stroke-opacity=".045"/>
+    </pattern>
+    <style>
+      .runner { animation: run 7s ease-in-out infinite; }
+      .step { animation: breathe 3.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .b { animation-delay: .7s; }
+      .c { animation-delay: 1.4s; }
+      .d { animation-delay: 2.1s; }
+      @keyframes run { 0% { transform: translateX(0); } 50%, 100% { transform: translateX(1016px); } }
+      @keyframes breathe { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .runner, .step { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="270" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="270" rx="22" fill="url(#grid)"/>
+  <text x="56" y="46" fill="#4B7457" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="2.2">THE BUILDER LOOP / REALITY IS THE REVIEWER</text>
+
+  <path d="M92 104H1108" stroke="#BDD0C0" stroke-width="2"/>
+  <path d="M92 104H1108" stroke="url(#line)" stroke-width="2" stroke-dasharray="7 12"/>
+  <g class="runner">
+    <circle cx="92" cy="104" r="12" fill="#18883D" fill-opacity=".15"/>
+    <circle cx="92" cy="104" r="5" fill="#18883D"/>
+  </g>
+
+  <g transform="translate(56 78)">
+    <circle class="step" cx="36" cy="26" r="16" fill="#FFFFFF" stroke="#18883D"/>
+    <text x="28" y="31" fill="#18883D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">01</text>
+    <text x="0" y="82" fill="#15231A" font-family="Georgia, Times New Roman, serif" font-size="27" font-weight="700">Map</text>
+    <text x="0" y="108" fill="#52675A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">Understand the actual system.</text>
+  </g>
+
+  <g transform="translate(330 78)">
+    <circle class="step b" cx="36" cy="26" r="16" fill="#FFFFFF" stroke="#18883D"/>
+    <text x="28" y="31" fill="#18883D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">02</text>
+    <text x="0" y="82" fill="#15231A" font-family="Georgia, Times New Roman, serif" font-size="27" font-weight="700">Trace</text>
+    <text x="0" y="108" fill="#52675A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">Follow every hidden edge.</text>
+  </g>
+
+  <g transform="translate(604 78)">
+    <circle class="step c" cx="36" cy="26" r="16" fill="#FFFFFF" stroke="#18883D"/>
+    <text x="28" y="31" fill="#18883D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">03</text>
+    <text x="0" y="82" fill="#15231A" font-family="Georgia, Times New Roman, serif" font-size="27" font-weight="700">Ship</text>
+    <text x="0" y="108" fill="#52675A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">Make the smallest true change.</text>
+  </g>
+
+  <g transform="translate(878 78)">
+    <circle class="step d" cx="36" cy="26" r="16" fill="#FFFDF5" stroke="#9A6710"/>
+    <text x="28" y="31" fill="#9A6710" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">04</text>
+    <text x="0" y="82" fill="#15231A" font-family="Georgia, Times New Roman, serif" font-size="27" font-weight="700">Measure</text>
+    <text x="0" y="108" fill="#75694E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">Let reality grade the work.</text>
+  </g>
+
+  <text x="56" y="238" fill="#718077" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">NO DEMO PATHS / NO VIBES-BASED CLAIMS / NO MYSTERY EDGES</text>
+  <rect x=".5" y=".5" width="1199" height="269" rx="21.5" stroke="#B7CDBA"/>
+</svg>

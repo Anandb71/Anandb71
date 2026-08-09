@@ -1,60 +1,125 @@
 <div align="center">
 
-<img src="./assets/profile-header.svg" width="100%" alt="Anand B - Cofounder at www.getarbor.dev" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-light.svg">
+  <img src="./assets/profile-hero-light.svg" width="100%" alt="Anand B, systems builder and Arbor Co-Founder. Build the machine. Make it explain itself.">
+</picture>
 
-**Co-Founder @ [www.getarbor.dev](https://www.getarbor.dev/)**
+<br>
 
-<br />
-
-<img src="https://komarev.com/ghpvc/?username=Anandb71&label=Profile%20Views&color=1f6feb&style=flat-square" alt="Profile views" />
-<img src="https://img.shields.io/badge/Baseline-Mar%202026%20~712-111827?style=flat-square" alt="Baseline around 712" />
+<a href="https://www.getarbor.dev/"><img src="https://img.shields.io/badge/ARBOR-SEE_THE_REACH-18883D?style=for-the-badge" alt="Visit Arbor"></a>
+<a href="https://www.linkedin.com/in/anandb71/"><img src="https://img.shields.io/badge/LINKEDIN-ANAND_B-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
+<a href="https://x.com/RXffofc"><img src="https://img.shields.io/badge/X-@RXffofc-111111?style=for-the-badge&logo=x&logoColor=white" alt="Follow on X"></a>
+<a href="mailto:anandbiju71@gmail.com"><img src="https://img.shields.io/badge/EMAIL-LET'S_BUILD-A33F24?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Anand"></a>
 
 </div>
 
-## Mission
+## I build the parts AI coding agents are still missing.
 
-I build **Arbor**, graph-native code intelligence for AI agents and engineering teams.
+I am **Anand B** - Co-Founder at [Arbor](https://www.getarbor.dev/), computer science student at VIT Vellore, and a systems builder obsessed with making complex software legible.
 
-Most AI coding tools guess from text. Arbor maps the codebase as a real graph, then gives agents deterministic context: call paths, blast radius, Git diffs, and MCP tools.
+My main bet is [**Arbor**](https://github.com/getArbor-dev/arbor): graph-native code intelligence that maps a repository with ASTs, walks the real call paths behind a pull request, and gives humans and coding agents the exact blast radius before merge.
 
-```text
-build deeply -> measure honestly -> ship relentlessly
-```
+> The same commit should produce the same answer. Deterministic context beats plausible guesswork.
 
-## Builder Mode
+## Live builder signal
 
-- Cofounder building [Arbor](https://www.getarbor.dev/) as the core bet.
-- Focused on code intelligence, agent observability, and local-first systems.
-- Preference: deterministic engines, fast feedback loops, interfaces that stay sharp.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/profile-signal-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/profile-signal-light.svg">
+  <img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/profile-signal-light.svg" width="100%" alt="Live GitHub contribution, streak, repository, and Arbor statistics for Anand B.">
+</picture>
 
-## Proof Of Work
+<sub>Generated every day by a pinned GitHub Action. No request-time stats API, no sleeping dyno, and the last good card survives a failed refresh.</sub>
 
-| Project | Signal |
-| --- | --- |
-| [Arbor](https://github.com/Anandb71/arbor) | Graph-native code intelligence for AI coding workflows. |
-| [LoRA-JIT](https://github.com/Anandb71/LoRA-jit) | Local adapter routing and paging telemetry for code generation. |
-| [Agent Lens 2.0](https://github.com/Anandb71/Agent-lens-2.0) | Visual debugging for AI agent workflows. |
-| [FinShield](https://github.com/Anandb71/FinShield) | Financial document forensics and graph investigation. |
-| [witr](https://github.com/Anandb71/witr) | Process, port, and service causality diagnostics. |
+## Selected work
 
-## Contribution Pulse
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/getArbor-dev/arbor">01 / Arbor</a></h3>
+      <p><strong>The map AI coding agents are missing.</strong></p>
+      <p>A Rust graph engine, PR blast-radius system, and MCP context layer built around deterministic program understanding instead of embedding-based RAG.</p>
+      <p><code>Rust</code> <code>ASTs</code> <code>Call Graphs</code> <code>MCP</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Anandb71/Bleurs">02 / Bleurs</a></h3>
+      <p><strong>Ground truth for APIs used by coding agents.</strong></p>
+      <p>Blocks the APIs that do not exist and serves the ones that do - one index, queried in both directions.</p>
+      <p><code>Python</code> <code>Static Analysis</code> <code>Agent Safety</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Anandb71/LoRA-jit">03 / LoRA-JIT</a></h3>
+      <p><strong>Structural weight paging for consumer GPUs.</strong></p>
+      <p>Experiments in local adapter routing, just-in-time model state, and the telemetry needed to know when the system is actually winning.</p>
+      <p><code>Python</code> <code>Local AI</code> <code>GPU Systems</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Anandb71/Legion-LOQ-control">04 / Legion + LOQ Control</a></h3>
+      <p><strong>A safer, bloat-free Lenovo Vantage replacement.</strong></p>
+      <p>A Windows-first control plane with read-only discovery, explicit capability evidence, and a short-lived elevated broker for guarded hardware access.</p>
+      <p><code>C#</code> <code>.NET 10</code> <code>WPF</code> <code>Windows</code></p>
+    </td>
+  </tr>
+</table>
+
+<details>
+  <summary><strong>More systems from the lab</strong></summary>
+  <br>
+
+- [**Runoscope**](https://github.com/Anandb71/Runoscope) - the portable HAR file for AI coding-agent runs.
+- [**Agent Lens 2.0**](https://github.com/Anandb71/Agent-lens-2.0) - visual debugging for agent workflows.
+- [**Zubaan**](https://github.com/Anandb71/Zubaan) - live multilingual compliance checks for Indian financial sales.
+- [**FinShield**](https://github.com/Anandb71/FinShield) - financial document forensics and graph investigation.
+- [**witr**](https://github.com/Anandb71/witr) - process, port, and service causality diagnostics.
+
+</details>
+
+## The builder loop
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/builder-loop-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/builder-loop-light.svg">
+  <img src="./assets/builder-loop-light.svg" width="100%" alt="Map the system, trace the hidden edge, ship the smallest true change, and measure reality.">
+</picture>
+
+I optimize for `determinism over vibes`, `local-first over rented black boxes`, `instrumentation before optimization`, and `safety gates before privileged writes`.
+
+## Contribution graph
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/github-contribution-grid-snake.svg" width="100%" alt="An animated snake moving through Anand's GitHub contribution graph.">
+</picture>
+
+## Working set
+
+**Languages:** `Rust` `Python` `C# / .NET` `TypeScript` `Dart`
+
+**Systems:** `AST parsing` `code graphs` `MCP` `agent observability` `local AI` `Windows internals`
+
+**Default posture:** build deeply -> measure honestly -> ship relentlessly
+
+---
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anandb71&bg_color=0d1117&color=8b949e&line=58a6ff&point=f2cc60&area=true&hide_border=true&radius=8&custom_title=Cinematic%20Commit%20Pulse" width="100%" alt="Cinematic contribution pulse" />
+
+### Every change has a reach. [See it before you merge.](https://www.getarbor.dev/)
+
+<a href="https://github.com/Anandb71?tab=repositories">Repositories</a>
+&nbsp;&middot;&nbsp;
+<a href="https://www.linkedin.com/in/anandb71/">LinkedIn</a>
+&nbsp;&middot;&nbsp;
+<a href="https://x.com/RXffofc">X</a>
+&nbsp;&middot;&nbsp;
+<a href="mailto:anandbiju71@gmail.com">Email</a>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=Anandb71&label=PROFILE+VIEWS&color=18883d&style=flat-square" alt="Profile view counter">
+
 </div>
-
-## Stats
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Anandb71&show_icons=true&hide_border=true&bg_color=00000000&title_color=e6edf3&text_color=9fb3c8&icon_color=58a6ff&rank_icon=github" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Anandb71&hide_border=true&background=00000000&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=e6edf3&sideLabels=9fb3c8&dates=9fb3c8&sideNums=e6edf3&currStreakNum=e6edf3" alt="GitHub streak" />
-</div>
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anandb71&layout=compact&hide_border=true&bg_color=00000000&title_color=e6edf3&text_color=9fb3c8" alt="Top languages" />
-  <img height="165" src="https://github-profile-trophy.vercel.app/?username=Anandb71&theme=algolia&no-frame=true&column=4&margin-w=10&margin-h=10" alt="Trophies" />
-</div>
-
-## Links
-
-[Arbor](https://www.getarbor.dev/) / [Repositories](https://github.com/Anandb71?tab=repositories) / [Email](mailto:anandbiju71@gmail.com) / [X](https://twitter.com/RXffofc)
