@@ -1,0 +1,22 @@
+{
+  "username": "Anandb71",
+  "host": "anand@arbor",
+  "featured": { "owner": "getArbor-dev", "name": "arbor", "label": "Arbor" },
+  "extraLocOwners": ["getArbor-dev"],
+  "about": [
+    ["Role", "Co-Founder @ Arbor (getarbor.dev)"],
+    ["Host", "VIT Vellore, Computer Science"],
+    ["Location", "Tamil Nadu, India"],
+    ["Building", "graph-native code intelligence"],
+    ["Focus", "ASTs, call graphs, MCP, agent observability"],
+    ["Lab", "local AI, Windows internals, GPU systems"],
+    ["Languages", "Rust, Python, C#/.NET, TypeScript, Dart"],
+    ["Motto", "determinism over vibes"]
+  ],
+  "contact": [
+    ["Web", "anandb71.in"],
+    ["Email", "anandbiju71@gmail.com"],
+    ["LinkedIn", "in/anandb71"],
+    ["X", "@anandb711"]
+  ]
+}
