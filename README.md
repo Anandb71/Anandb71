@@ -1,10 +1,12 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-light.svg">
-  <img src="./assets/profile-hero-light.svg" width="100%" alt="Anand B, systems builder and Arbor Co-Founder. Build the machine. Make it explain itself.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/neofetch-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/neofetch-light.svg">
+  <img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/neofetch-light.svg" width="100%" alt="Terminal-style neofetch card for Anand B: the GitHub avatar rendered as colored ASCII art beside profile facts and live GitHub stats.">
 </picture>
+
+<sub>The portrait is regenerated from my GitHub avatar on every run, and the stats refresh daily through a pinned GitHub Action.</sub>
 
 <br>
 
@@ -22,16 +24,6 @@ I am **Anand B** - Co-Founder at [Arbor](https://www.getarbor.dev/), computer sc
 My main bet is [**Arbor**](https://github.com/getArbor-dev/arbor): graph-native code intelligence that maps a repository with ASTs, walks the real call paths behind a pull request, and gives humans and coding agents the exact blast radius before merge.
 
 > The same commit should produce the same answer. Deterministic context beats plausible guesswork.
-
-## Live builder signal
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/profile-signal-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/profile-signal-light.svg">
-  <img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/profile-signal-light.svg" width="100%" alt="Live GitHub contribution, streak, repository, and Arbor statistics for Anand B.">
-</picture>
-
-<sub>Generated every day by a pinned GitHub Action. No request-time stats API, no sleeping dyno, and the last good card survives a failed refresh.</sub>
 
 ## Selected work
 
@@ -114,7 +106,7 @@ I optimize for `determinism over vibes`, `local-first over rented black boxes`, 
 &nbsp;&middot;&nbsp;
 <a href="https://www.linkedin.com/in/anandb71/">LinkedIn</a>
 &nbsp;&middot;&nbsp;
-<a href="https://x.com/RXffofc">X</a>
+<a href="https://x.com/anandb711">X</a>
 &nbsp;&middot;&nbsp;
 <a href="mailto:anandbiju71@gmail.com">Email</a>
 
