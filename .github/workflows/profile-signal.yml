@@ -1,4 +1,4 @@
-name: Refresh profile card, signal and streak
+name: Refresh profile card
 
 on:
   push:
@@ -6,9 +6,7 @@ on:
       - main
     paths:
       - ".github/workflows/profile-signal.yml"
-      - "scripts/generate-profile-assets.py"
-      - "scripts/neofetch.py"
-      - "scripts/panels.py"
+      - "scripts/**"
       - "config/profile.json"
       - "assets/fonts/**"
   schedule:
@@ -19,7 +17,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: profile-signal
+  group: profile-card
   cancel-in-progress: true
 
 jobs:
@@ -37,72 +35,34 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Install card dependencies
+      - name: Install dependencies
         run: python -m pip install --disable-pip-version-check pillow==12.1.0 numpy==2.4.3
 
-      - name: Generate neofetch card from the avatar and live stats
+      - name: Generate card and panels
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # optional fine-grained PAT; adds private-repo commits to the counts
           PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
-        run: python scripts/neofetch.py --output dist
-
-      - name: Generate self-hosted signal and streak cards
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PROFILE_USERNAME: ${{ github.repository_owner }}
-        run: python3 scripts/generate-profile-assets.py --output dist
-
-      - name: Generate theme-aware contribution snake
-        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=#A85A00&color_dots=#EEF1F4,#9BE9A8,#40C463,#30A14E,#216E39
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#F5A524&color_dots=#11161D,#1F6F35,#2EA043,#56D364,#7CF58A
-
-      - name: Generate terminal README panels (wraps the snake)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
-        run: python scripts/panels.py --output dist
-
-      - name: Validate generated profile assets
         run: |
-          python3 - <<'PY'
+          python scripts/neofetch.py --output dist
+          python scripts/panels.py --output dist
+
+      - name: Validate generated assets
+        run: |
+          python - <<'PY'
           import json
           import xml.etree.ElementTree as ET
           from pathlib import Path
 
-          output = Path("dist")
-          required = {
-              "github-contribution-grid-snake-dark.svg",
-              "github-contribution-grid-snake.svg",
-              "neofetch-dark.svg",
-              "neofetch-light.svg",
-              "neofetch-data.json",
-              "about-dark.svg",
-              "about-light.svg",
-              "work-dark.svg",
-              "loop-dark.svg",
-              "graph-dark.svg",
-              "graph-light.svg",
-              "outro-dark.svg",
-              "project-arbor-dark.svg",
-              "link-arbor-dark.svg",
-              "profile-data.json",
-              "profile-signal-dark.svg",
-              "profile-signal-light.svg",
-          }
-          present = {path.name for path in output.iterdir() if path.is_file()}
-          missing = required - present
+          out = Path("dist")
+          required = {"neofetch-dark.svg", "neofetch-light.svg", "neofetch-data.json", "work-dark.svg", "work-light.svg"}
+          missing = required - {p.name for p in out.iterdir()}
           if missing:
               raise SystemExit(f"Missing generated assets: {sorted(missing)}")
-
-          for path in output.glob("*.svg"):
+          for path in out.glob("*.svg"):
               ET.parse(path)
-          json.loads((output / "profile-data.json").read_text(encoding="utf-8"))
-          print(f"Validated {len(present)} generated profile assets.")
+          json.loads((out / "neofetch-data.json").read_text(encoding="utf-8"))
+          print(f"Validated {len(list(out.iterdir()))} files.")
           PY
 
       - name: Publish generated assets
@@ -114,4 +74,4 @@ jobs:
           force_orphan: true
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
-          commit_message: "chore: refresh profile card, signal and streak"
+          commit_message: "chore: refresh profile card"

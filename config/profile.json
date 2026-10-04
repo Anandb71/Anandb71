@@ -1,86 +1,143 @@
 {
   "username": "Anandb71",
   "host": "anand@arbor",
-  "featured": { "owner": "getArbor-dev", "name": "arbor", "label": "Arbor" },
-  "extraLocOwners": ["getArbor-dev"],
+  "featured": {
+    "owner": "getArbor-dev",
+    "name": "arbor",
+    "label": "Arbor"
+  },
+  "extraLocOwners": [
+    "getArbor-dev"
+  ],
   "about": [
-    ["Role", "Co-Founder @ Arbor (getarbor.dev)"],
-    ["Host", "VIT Vellore, Computer Science"],
-    ["Location", "Tamil Nadu, India"],
-    ["Building", "graph-native code intelligence"],
-    ["Focus", "ASTs, call graphs, MCP, agent observability"],
-    ["Lab", "local AI, Windows internals, GPU systems"],
-    ["Languages", "Rust, Python, C#/.NET, TypeScript, Dart"],
-    ["Motto", "determinism over vibes"]
+    [
+      "Role",
+      "Co-Founder @ Arbor (getarbor.dev)"
+    ],
+    [
+      "Host",
+      "VIT Vellore, Computer Science"
+    ],
+    [
+      "Location",
+      "Tamil Nadu, India"
+    ],
+    [
+      "Building",
+      "graph-native code intelligence"
+    ],
+    [
+      "Focus",
+      "ASTs, call graphs, MCP, agent observability"
+    ],
+    [
+      "Lab",
+      "local AI, Windows internals, GPU systems"
+    ],
+    [
+      "Languages",
+      "Rust, Python, C#/.NET, TypeScript, Dart"
+    ],
+    [
+      "Motto",
+      "determinism over vibes"
+    ]
   ],
   "contact": [
-    ["Web", "anandb71.in"],
-    ["Email", "anandbiju71@gmail.com"],
-    ["LinkedIn", "in/anandb71"],
-    ["X", "@anandb711"]
+    [
+      "Web",
+      "anandb71.in"
+    ],
+    [
+      "Email",
+      "anandbiju71@gmail.com"
+    ],
+    [
+      "LinkedIn",
+      "in/anandb71"
+    ],
+    [
+      "X",
+      "@anandb711"
+    ]
   ],
   "links": [
-    { "id": "arbor", "label": "getarbor.dev", "url": "https://www.getarbor.dev/" },
-    { "id": "web", "label": "anandb71.in", "url": "https://anandb71.in" },
-    { "id": "linkedin", "label": "in/anandb71", "url": "https://www.linkedin.com/in/anandb71/" },
-    { "id": "x", "label": "@anandb711", "url": "https://x.com/anandb711" },
-    { "id": "email", "label": "anandbiju71@gmail.com", "url": "mailto:anandbiju71@gmail.com" }
-  ],
-  "intro": {
-    "heading": "I build the parts AI coding agents are still missing.",
-    "paragraphs": [
-      "I am Anand B - Co-Founder at Arbor, computer science student at VIT Vellore, and a systems builder obsessed with making complex software legible.",
-      "My main bet is Arbor: graph-native code intelligence that maps a repository with ASTs, walks the real call paths behind a pull request, and gives humans and coding agents the exact blast radius before merge."
-    ],
-    "quote": "The same commit should produce the same answer. Deterministic context beats plausible guesswork.",
-    "highlight": ["Anand B", "Arbor", "VIT Vellore", "ASTs", "call paths", "blast radius"]
-  },
-  "projects": [
     {
-      "slug": "arbor", "repo": "getArbor-dev/arbor", "title": "Arbor",
-      "tagline": "The map AI coding agents are missing.",
-      "desc": "A Rust graph engine, PR blast-radius system, and MCP context layer built around deterministic program understanding instead of embedding-based RAG.",
-      "tags": ["Rust", "ASTs", "Call Graphs", "MCP"]
+      "id": "arbor",
+      "label": "getarbor.dev",
+      "url": "https://www.getarbor.dev/"
     },
     {
-      "slug": "bleurs", "repo": "Anandb71/Bleurs", "title": "Bleurs",
-      "tagline": "Ground truth for APIs used by coding agents.",
-      "desc": "Blocks the APIs that do not exist and serves the ones that do - one index, queried in both directions.",
-      "tags": ["Python", "Static Analysis", "Agent Safety"]
+      "id": "web",
+      "label": "anandb71.in",
+      "url": "https://anandb71.in"
     },
     {
-      "slug": "lora-jit", "repo": "Anandb71/LoRA-jit", "title": "LoRA-JIT",
-      "tagline": "Structural weight paging for consumer GPUs.",
-      "desc": "Experiments in local adapter routing, just-in-time model state, and the telemetry needed to know when the system is actually winning.",
-      "tags": ["Python", "Local AI", "GPU Systems"]
+      "id": "linkedin",
+      "label": "in/anandb71",
+      "url": "https://www.linkedin.com/in/anandb71/"
     },
     {
-      "slug": "legion", "repo": "Anandb71/Legion-LOQ-control", "title": "Legion + LOQ Control",
-      "tagline": "A safer, bloat-free Lenovo Vantage replacement.",
-      "desc": "A Windows-first control plane with read-only discovery, explicit capability evidence, and a short-lived elevated broker for guarded hardware access.",
-      "tags": ["C#", ".NET 10", "WPF", "Windows"]
+      "id": "x",
+      "label": "@anandb711",
+      "url": "https://x.com/anandb711"
+    },
+    {
+      "id": "email",
+      "label": "anandbiju71@gmail.com",
+      "url": "mailto:anandbiju71@gmail.com"
     }
   ],
-  "lab": [
-    ["Runoscope", "Anandb71/Runoscope", "the portable HAR file for AI coding-agent runs"],
-    ["Agent Lens 2.0", "Anandb71/Agent-lens-2.0", "visual debugging for agent workflows"],
-    ["Zubaan", "Anandb71/Zubaan", "live multilingual compliance checks for Indian financial sales"],
-    ["FinShield", "Anandb71/FinShield", "financial document forensics and graph investigation"],
-    ["witr", "Anandb71/witr", "process, port, and service causality diagnostics"]
-  ],
-  "loop": [
-    ["Map", "Understand the actual system."],
-    ["Trace", "Follow every hidden edge."],
-    ["Ship", "Make the smallest true change."],
-    ["Measure", "Let reality grade the work."]
-  ],
-  "loopRule": "no demo paths / no vibes-based claims / no mystery edges",
-  "principles": [
-    "determinism over vibes",
-    "local-first over rented black boxes",
-    "instrumentation before optimization",
-    "safety gates before privileged writes"
-  ],
-  "posture": "build deeply → measure honestly → ship relentlessly",
-  "motto": ["Every change has a reach.", "See it before you merge."]
+  "projects": [
+    {
+      "slug": "arbor",
+      "repo": "getArbor-dev/arbor",
+      "title": "Arbor",
+      "tagline": "The map AI coding agents are missing.",
+      "desc": "A Rust graph engine, PR blast-radius system, and MCP context layer built around deterministic program understanding instead of embedding-based RAG.",
+      "tags": [
+        "Rust",
+        "ASTs",
+        "Call Graphs",
+        "MCP"
+      ]
+    },
+    {
+      "slug": "bleurs",
+      "repo": "Anandb71/Bleurs",
+      "title": "Bleurs",
+      "tagline": "Ground truth for APIs used by coding agents.",
+      "desc": "Blocks the APIs that do not exist and serves the ones that do - one index, queried in both directions.",
+      "tags": [
+        "Python",
+        "Static Analysis",
+        "Agent Safety"
+      ]
+    },
+    {
+      "slug": "lora-jit",
+      "repo": "Anandb71/LoRA-jit",
+      "title": "LoRA-JIT",
+      "tagline": "Structural weight paging for consumer GPUs.",
+      "desc": "Experiments in local adapter routing, just-in-time model state, and the telemetry needed to know when the system is actually winning.",
+      "tags": [
+        "Python",
+        "Local AI",
+        "GPU Systems"
+      ]
+    },
+    {
+      "slug": "legion",
+      "repo": "Anandb71/Legion-LOQ-control",
+      "title": "Legion + LOQ Control",
+      "tagline": "A safer, bloat-free Lenovo Vantage replacement.",
+      "desc": "A Windows-first control plane with read-only discovery, explicit capability evidence, and a short-lived elevated broker for guarded hardware access.",
+      "tags": [
+        "C#",
+        ".NET 10",
+        "WPF",
+        "Windows"
+      ]
+    }
+  ]
 }
