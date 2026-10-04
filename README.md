@@ -6,112 +6,66 @@
   <img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/neofetch-light.svg" width="100%" alt="Terminal-style neofetch card for Anand B: the GitHub avatar rendered as colored ASCII art beside profile facts and live GitHub stats.">
 </picture>
 
-<sub>The portrait is regenerated from my GitHub avatar on every run, and the stats refresh daily through a pinned GitHub Action.</sub>
+<sub>The portrait is regenerated from my GitHub avatar on every run, and every panel on this page refreshes daily through a pinned GitHub Action.</sub>
 
 <br>
 
-<a href="https://www.getarbor.dev/"><img src="https://img.shields.io/badge/ARBOR-SEE_THE_REACH-18883D?style=for-the-badge" alt="Visit Arbor"></a>
-<a href="https://www.linkedin.com/in/anandb71/"><img src="https://img.shields.io/badge/LINKEDIN-ANAND_B-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
-<a href="https://x.com/anandb711"><img src="https://img.shields.io/badge/X-@anandb711-111111?style=for-the-badge&logo=x&logoColor=white" alt="Follow on X"></a>
-<a href="mailto:anandbiju71@gmail.com"><img src="https://img.shields.io/badge/EMAIL-LET'S_BUILD-A33F24?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Anand"></a>
+<a href="https://www.getarbor.dev/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/link-arbor-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/link-arbor-light.svg"><img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/link-arbor-light.svg" height="30" alt="arbor: getarbor.dev"></picture></a>
+<a href="https://anandb71.in"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/link-web-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/link-web-light.svg"><img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/link-web-light.svg" height="30" alt="web: anandb71.in"></picture></a>
+<a href="https://www.linkedin.com/in/anandb71/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/link-linkedin-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/link-linkedin-light.svg"><img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/link-linkedin-light.svg" height="30" alt="linkedin: in/anandb71"></picture></a>
+<a href="https://x.com/anandb711"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/link-x-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/link-x-light.svg"><img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/link-x-light.svg" height="30" alt="x: @anandb711"></picture></a>
+<a href="mailto:anandbiju71@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/link-email-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/link-email-light.svg"><img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/link-email-light.svg" height="30" alt="email: anandbiju71@gmail.com"></picture></a>
 
 </div>
 
-## I build the parts AI coding agents are still missing.
+<br>
 
-I am **Anand B** - Co-Founder at [Arbor](https://www.getarbor.dev/), computer science student at VIT Vellore, and a systems builder obsessed with making complex software legible.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/about-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/about-light.svg">
+  <img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/about-light.svg" width="100%" alt="I build the parts AI coding agents are still missing. I am Anand B - Co-Founder at Arbor, computer science student at VIT Vellore, and a systems builder obsessed with making complex software legible. My main bet is Arbor: graph-native code intelligence that maps a repository with ASTs, walks the real call paths behind a pull request, and gives humans and coding agents the exact blast radius before merge. The same commit should produce the same answer. Deterministic context beats plausible guesswork.">
+</picture>
 
-My main bet is [**Arbor**](https://github.com/getArbor-dev/arbor): graph-native code intelligence that maps a repository with ASTs, walks the real call paths behind a pull request, and gives humans and coding agents the exact blast radius before merge.
+<a href="https://github.com/Anandb71?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/work-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/work-light.svg"><img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/work-light.svg" width="100%" alt="ls -la ~/work: selected work"></picture></a>
 
-> The same commit should produce the same answer. Deterministic context beats plausible guesswork.
+<p>
+<a href="https://github.com/getArbor-dev/arbor"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-arbor-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-arbor-light.svg"><img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-arbor-light.svg" width="49%" alt="Arbor: The map AI coding agents are missing."></picture></a>
+<a href="https://github.com/Anandb71/Bleurs"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-bleurs-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-bleurs-light.svg"><img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-bleurs-light.svg" width="49%" alt="Bleurs: Ground truth for APIs used by coding agents."></picture></a>
+</p>
 
-## Selected work
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/getArbor-dev/arbor">01 / Arbor</a></h3>
-      <p><strong>The map AI coding agents are missing.</strong></p>
-      <p>A Rust graph engine, PR blast-radius system, and MCP context layer built around deterministic program understanding instead of embedding-based RAG.</p>
-      <p><code>Rust</code> <code>ASTs</code> <code>Call Graphs</code> <code>MCP</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Anandb71/Bleurs">02 / Bleurs</a></h3>
-      <p><strong>Ground truth for APIs used by coding agents.</strong></p>
-      <p>Blocks the APIs that do not exist and serves the ones that do - one index, queried in both directions.</p>
-      <p><code>Python</code> <code>Static Analysis</code> <code>Agent Safety</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Anandb71/LoRA-jit">03 / LoRA-JIT</a></h3>
-      <p><strong>Structural weight paging for consumer GPUs.</strong></p>
-      <p>Experiments in local adapter routing, just-in-time model state, and the telemetry needed to know when the system is actually winning.</p>
-      <p><code>Python</code> <code>Local AI</code> <code>GPU Systems</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Anandb71/Legion-LOQ-control">04 / Legion + LOQ Control</a></h3>
-      <p><strong>A safer, bloat-free Lenovo Vantage replacement.</strong></p>
-      <p>A Windows-first control plane with read-only discovery, explicit capability evidence, and a short-lived elevated broker for guarded hardware access.</p>
-      <p><code>C#</code> <code>.NET 10</code> <code>WPF</code> <code>Windows</code></p>
-    </td>
-  </tr>
-</table>
+<p>
+<a href="https://github.com/Anandb71/LoRA-jit"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-lora-jit-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-lora-jit-light.svg"><img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-lora-jit-light.svg" width="49%" alt="LoRA-JIT: Structural weight paging for consumer GPUs."></picture></a>
+<a href="https://github.com/Anandb71/Legion-LOQ-control"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-legion-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-legion-light.svg"><img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-legion-light.svg" width="49%" alt="Legion + LOQ Control: A safer, bloat-free Lenovo Vantage replacement."></picture></a>
+</p>
 
 <details>
-  <summary><strong>More systems from the lab</strong></summary>
-  <br>
+<summary><code>$ ls ~/lab</code> &nbsp; more systems from the lab</summary>
+<br>
 
-- [**Runoscope**](https://github.com/Anandb71/Runoscope) - the portable HAR file for AI coding-agent runs.
-- [**Agent Lens 2.0**](https://github.com/Anandb71/Agent-lens-2.0) - visual debugging for agent workflows.
-- [**Zubaan**](https://github.com/Anandb71/Zubaan) - live multilingual compliance checks for Indian financial sales.
-- [**FinShield**](https://github.com/Anandb71/FinShield) - financial document forensics and graph investigation.
-- [**witr**](https://github.com/Anandb71/witr) - process, port, and service causality diagnostics.
+- [`runoscope/`](https://github.com/Anandb71/Runoscope) &nbsp; the portable HAR file for AI coding-agent runs
+- [`agent-lens-2.0/`](https://github.com/Anandb71/Agent-lens-2.0) &nbsp; visual debugging for agent workflows
+- [`zubaan/`](https://github.com/Anandb71/Zubaan) &nbsp; live multilingual compliance checks for Indian financial sales
+- [`finshield/`](https://github.com/Anandb71/FinShield) &nbsp; financial document forensics and graph investigation
+- [`witr/`](https://github.com/Anandb71/witr) &nbsp; process, port, and service causality diagnostics
 
 </details>
 
-## The builder loop
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/builder-loop-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/builder-loop-light.svg">
-  <img src="./assets/builder-loop-light.svg" width="100%" alt="Map the system, trace the hidden edge, ship the smallest true change, and measure reality.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/loop-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/loop-light.svg">
+  <img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/loop-light.svg" width="100%" alt="The builder loop: Map, Understand the actual system.; Trace, Follow every hidden edge.; Ship, Make the smallest true change.; Measure, Let reality grade the work. Principles: determinism over vibes, local-first over rented black boxes, instrumentation before optimization, safety gates before privileged writes.">
 </picture>
 
-I optimize for `determinism over vibes`, `local-first over rented black boxes`, `instrumentation before optimization`, and `safety gates before privileged writes`.
-
-## Contribution graph
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/github-contribution-grid-snake.svg">
-  <img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/github-contribution-grid-snake.svg" width="100%" alt="An animated snake moving through Anand's GitHub contribution graph.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/graph-light.svg">
+  <img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/graph-light.svg" width="100%" alt="An animated snake eating through the last year of GitHub contributions.">
 </picture>
 
-## Working set
-
-**Languages:** `Rust` `Python` `C# / .NET` `TypeScript` `Dart`
-
-**Systems:** `AST parsing` `code graphs` `MCP` `agent observability` `local AI` `Windows internals`
-
-**Default posture:** build deeply -> measure honestly -> ship relentlessly
-
----
+<a href="https://www.getarbor.dev/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/outro-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/outro-light.svg"><img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/outro-light.svg" width="100%" alt="Every change has a reach. See it before you merge. getarbor.dev"></picture></a>
 
 <div align="center">
 
-### Every change has a reach. [See it before you merge.](https://www.getarbor.dev/)
-
-<a href="https://github.com/Anandb71?tab=repositories">Repositories</a>
-&nbsp;&middot;&nbsp;
-<a href="https://www.linkedin.com/in/anandb71/">LinkedIn</a>
-&nbsp;&middot;&nbsp;
-<a href="https://x.com/anandb711">X</a>
-&nbsp;&middot;&nbsp;
-<a href="mailto:anandbiju71@gmail.com">Email</a>
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=Anandb71&label=PROFILE+VIEWS&color=18883d&style=flat-square" alt="Profile view counter">
+<img src="https://komarev.com/ghpvc/?username=Anandb71&label=profile+views&color=2EA043&style=flat-square" alt="Profile view counter">
 
 </div>
