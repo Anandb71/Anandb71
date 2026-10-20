@@ -145,7 +145,7 @@ def fetch_projects(cfg: dict, token: str) -> dict:
     for n, p in enumerate(cfg["projects"]):
         owner, name = p["repo"].split("/")
         parts.append(f'r{n}: repository(owner: "{owner}", name: "{name}") {{ stargazerCount forkCount pushedAt primaryLanguage {{ name }} }}')
-    data = nf.graphql(token, "query {" + " ".join(parts) + "}", {})
+    data = nf.graphql(token, "query {" + " ".join(parts) + "}", {}, allow_not_found=True)
     return {p["repo"]: data.get(f"r{n}") for n, p in enumerate(cfg["projects"])}
 
 

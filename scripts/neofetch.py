@@ -93,12 +93,16 @@ def _request(url: str, token: str, body: dict | None = None) -> tuple[int, Any]:
         return err.code, None
 
 
-def graphql(token: str, query: str, variables: dict) -> dict:
+def graphql(token: str, query: str, variables: dict, allow_not_found: bool = False) -> dict:
     status, result = _request(GRAPHQL, token, {"query": query, "variables": variables})
     if status != 200 or not result:
         raise RuntimeError(f"GraphQL HTTP {status}")
-    if result.get("errors"):
-        raise RuntimeError("GraphQL errors: " + "; ".join(e.get("message", "?") for e in result["errors"]))
+    errors = result.get("errors") or []
+    if allow_not_found and result.get("data") is not None:
+        # repos the token can't see (e.g. private ones without PROFILE_TOKEN) come back as null fields
+        errors = [e for e in errors if e.get("type") != "NOT_FOUND"]
+    if errors:
+        raise RuntimeError("GraphQL errors: " + "; ".join(e.get("message", "?") for e in errors))
     return result["data"]
 
 

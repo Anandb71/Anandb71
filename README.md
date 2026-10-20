@@ -17,3 +17,6 @@
 <a href="https://github.com/Anandb71/LoRA-jit"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-lora-jit-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-lora-jit-light.svg"><img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-lora-jit-light.svg" width="49%" alt="LoRA-JIT: Structural weight paging for consumer GPUs."></picture></a>
 <a href="https://github.com/Anandb71/Legion-LOQ-control"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-legion-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-legion-light.svg"><img src="https://raw.githubusercontent.com/Anandb71/Anandb71/output/project-legion-light.svg" width="49%" alt="Legion + LOQ Control: A safer, bloat-free Lenovo Vantage replacement."></picture></a>
 </p>
+
+### Open Source Contributions
+[![Contributor](https://img.shields.io/badge/6%20PRs%20MERGED-KESTRA-1F232C?style=for-the-badge&logo=github&logoColor=200062&labelColor=CDC5FF)](https://github.com/search?q=org:kestra-io+author:Anandb71+is:pr+is:merged&type=pullrequests)
